@@ -1,0 +1,156 @@
+@font-face {
+    font-family:opensans ;
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: openlight;
+    src: url(Open_Sans/OpenSans-Light.ttf);
+}
+
+
+body{
+    background-color: #f2f1f4;
+
+}
+ul{
+    list-style-type: none;
+    background-color: #30a894;
+    display: block;
+  text-align: center;
+    
+}
+li{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 13px;
+    color: white;
+    font-family: opensans;
+    font-size: 20px;
+    
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+h2{
+    color: #34a996;
+    margin-right: 20px;
+    font-family: openlight;
+    margin-left: 10px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #30a894    ;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -12px;
+}
+p{
+    font-family: opensans;
+    color: #76797c ;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.mob{
+    width: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h3{
+    color: #34a996;
+    margin-right: 20px;
+    font-family: openlight;
+    margin-left: 10px;
+}
+span{
+    color: #64bcbe ;
+}
+
+
+.acad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2em;
+    margin-top: 2em;
+}
+.footer{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.sidebar{
+    background-color: #b8dcb1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+}
+.tab{
+    display: none;
+}
+.lap{
+    display: none;
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .mob{
+        display: none;
+    }
+    .tab{
+        display: block;
+        width: 730px;
+        margin-left: 10px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .sidebar{
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .mob{
+        display: none;
+    }
+    .tab{
+        display: none;
+    }
+    .lap{
+        display: block;
+        width: 550px;
+        margin-left: 10px;
+    }
+    ul{
+        display: flex;
+    }
+    li{
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .white{
+        
+        margin-left: 5%;
+        
+    }
+    .all{
+        display: flex;
+    }
+    .sidebar{
+        display: block;
+        margin-right: 50px;
+        margin-top: -16px;
+        width:1700px;
+    }
+    nav{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p{
+        font-size: 15px;
+    }
+}
